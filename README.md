@@ -1,4 +1,3 @@
 # File Content Store
 
-Images and Icons for KodeWreck email template.
-"CODEVORTEX"
+Images and Icons for the KodeWreck email template.
