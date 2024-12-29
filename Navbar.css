@@ -1,0 +1,46 @@
+.navbar {
+    position: fixed;
+    /* border: 2px solid white; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 10;
+}
+
+.navbar-inner {
+    display: flex;
+    gap: 2rem;
+    word-spacing: -2px;
+    /* border: 2px solid red; */
+    margin-right: 5rem;
+}
+
+.navbar-link {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    /* position: relative; */
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+}
+
+.navbar-link:hover {
+    color: #ff6347;
+}
+
+.register-button {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.register-button:hover {
+    background: linear-gradient(90deg, #8000ff, #ff007f);
+    transform: scale(1.05);
+}
